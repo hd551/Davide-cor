@@ -1,98 +1,130 @@
-# Hydrogen template: Skeleton
+ 6. Atomic Habits - العادات الذرية
 
-Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dovetail with [Remix](https://remix.run/), Shopify’s full stack web framework. This template contains a **minimal setup** of components, queries and tooling to get started with Hydrogen.
+📘 أهم الأفكار:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/hydrogen-template)
+التغيير الكبير يبدأ بخطوات صغيرة وثابتة.
 
-- [Check out Hydrogen docs](https://shopify.dev/custom-storefronts/hydrogen)
-- [Get familiar with Remix](https://remix.run/docs/)
+البيئة أقوى من الإرادة، فصمّم بيئتك لتدعم عاداتك.
 
-## What's included
+لا تركز على النتائج، ركز على الشخص اللي تبي تصير عليه.
 
-- Remix 2
-- Hydrogen
-- Shopify CLI
-- Configured deployment to Netlify, with Server-Side Rendering (SSR) via [Netlify Edge
-  Functions](https://docs.netlify.com/edge-functions/overview/)
-- ESLint
-- Prettier
-- GraphQL generator
-- TypeScript and JavaScript flavors
-- Minimal setup of components and routes
 
-## Getting started
+📢 كلام مفيد إضافي:
 
-We highly recommend using this template to deploy a Hydrogen site to Netlify.
+> عاداتك تعكس هويتك… تبغى تتغير؟ غيّر هويتك أول.
 
-**Requirements:**
+لو تطورت 1% يوميًا، راح تصير شخص مختلف خلال سنة.
 
-- Node.js version 18.0.0 or higher
-- Netlify CLI 17.0.0 or higher
+النجاح مو قرار كبير… هو تراكم قرارات صغيرة يوميًا.
 
-```bash
-npm install -g netlify-cli@latest
-```
+غيّر “أنا أبغى أكتب” إلى “أنا كاتب”، هويتك تسبق سلوك
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/hydrogen-template)
 
-To create a new project, either click the "Deploy to Netlify" button above, or run the following command:
+---
 
-```bash
-npm create @shopify/hydrogen@latest -- --template https://github.com/netlify/hydrogen-template
-```
+✅ 7. The 48 Laws of Power - 48 قانون للقوة
 
-Then follow the instructions in `.env.example` and you're ready to start developing.
+📘 أهم الأفكار:
 
-## Local development
+لا تظهر كل أوراقك، الغموض يعطيك قوة.
 
-```bash
-npm run dev
-```
+القوة ليست ظلم، بل فهم لأسلوب اللعب في الحياة.
 
-## Building for production
+تحكّم بمشاعر الآخرين من خلال الأفعال، لا الأقوال.
 
-```bash
-npm run build
-```
 
-## FAQ and Troubleshooting
+📢 كلام مفيد إضافي:
 
-## How do I configure my Hydrogen session / storefront client / customer account client / cart handler?
+> الناس يحبون القائد الهادئ والواثق، مش المتوتر والمندفع.
 
-See `app/lib/context.ts` and the Hydrogen documentation.
+اللي يراقب بصمت يفهم أكثر من اللي يتكلم كثير.
 
-## How do I augment the Remix context?
+لا تنافس من هو أعلى منك مباشرة… حوّل مسارك وكن أذكى.
 
-Add your custom context to the object returned by the `createAppLoadContext` function in
-`app/lib/context.ts` and ensure the return type is updated (e.g. `HydrogenContext & {foo: string}`).
+استخدم غيابك أحيانًا… الندرة ترفع قيمتك.
 
-### How do I configure a real Shopify store in local dev?
 
-See `.env.example` and
-[these Shopify instructions](https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/getting-started).
 
-### I get a 500 error on the `/accounts` pages. How do I configure real Shopify customer accounts in local dev?
 
-See [these Shopify instructions](https://shopify.dev/docs/storefronts/headless/building-with-the-customer-account-api/hydrogen).
 
-### Static assets not loading in local dev
 
-If your `.js` and `.css` files are failing to load in local development (with 404 responses), you
-may be running into an issue that occurs when `netlify dev` is run after having run a build (via
-`netlify build`, `netlify serve`, `npm run build`, or `remix vite:build`). This is a known issue
-that Netlify is working on.
 
-To fix this, delete the conflicting built functions before running your dev server:
+---
 
-```bash
-rm -rf .netlify/edge-functions*
-npm run dev
-```
+✅ 8. The Almanack of Naval Ravikant - دليل نافال رافيكانت
 
-### `shopify hydrogen preview` fails with `Cannot find module '@shopify/mini-oxygen'`
+📘 أهم الأفكار:
 
-The `shopify hydrogen preview` command has a misleading name. It previews your site in a local
-simulation of the Oxygen hosting platform. It therefore isn't compatible with a site intended to be
-deployed to Netlify.
+تعلم كيف تفكر، مش فقط ماذا تفكر.
 
-Instead, use the [Netlify CLI](https://docs.netlify.com/cli/get-started/) (e.g. `netlify serve`).
+الثروة = ملكية أشياء تنتج لك دخل وأنت نائم.
+
+السعادة = قبول الواقع الداخلي، وليس تغييره خارجيًا.
+
+
+📢 كلام مفيد إضافي:
+
+> لا تطارد المال، طوّر نفسك وسيطاردك المال.
+
+لو فهمت كيف تفكر بوضوح… تقدر تنجح بأي مجال.
+
+كل شي في الحياة يتراكم… أفكارك، علاقاتك، عاداتك.
+
+تعلم البرمجة أو المبيعات، وبتفتح لك أبواب ما كنت تتخيلها.
+
+
+
+
+
+
+---
+
+✅ 9. The Psychology of Money - سيكولوجية المال
+
+📘 أهم الأفكار:
+
+الذكاء المالي = السلوك، مش فقط المعرفة.
+
+الثراء يبدأ بالتحكم، مو بالحظ.
+
+لا تقارن نفسك بغيرك ماليًا، كل واحد عنده طريقه.
+
+
+📢 كلام مفيد إضافي:
+
+> المال أداة، مو مقياس لقيمتك.
+
+الاستمرارية في التوفير أهم من كمية المال اللي تبدأ فيها.
+
+الاستقلالية المالية = راحة البال.
+
+الثراء الحقيقي هو وقتك، مش حسابك البنكي فقط.
+
+
+
+
+
+
+
+---
+
+✅ 10. Rich Dad Poor Dad - الأب الغني والأب الفقير
+
+📘 أهم الأفكار:
+
+الفقراء يعملون من أجل المال، الأغنياء يجعلون المال يعمل لهم.
+
+المدارس تعلم الوظيفة، مو الحرية المالية.
+
+الأصول تزيد دخلك… الخصوم تسرق دخلك.
+
+
+📢 كلام مفيد إضافي:
+
+> تعلم كيف تشتري “أصول” بدل ما تضيع مالك على كماليات.
+
+اسأل نفسك: هذا اللي أشتريه، هل يزيدني فقر أو غنى؟
+
+الشجاعة تبدأ بالتفكير مثل الأغنياء، مو بس التقليد.
+
+ما تقدر تبني حرية مالية وأنت خائف من الخسارة.
